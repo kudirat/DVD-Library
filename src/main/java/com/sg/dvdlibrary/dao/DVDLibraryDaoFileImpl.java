@@ -51,6 +51,7 @@ public class DVDLibraryDaoFileImpl implements DVDLibraryDao{
                 break;
         }
         //display dvd with updated information and exit
+        dvds.put(currDVD.getTitle(), currDVD);
         writeLibrary();
         return currDVD;
     }
