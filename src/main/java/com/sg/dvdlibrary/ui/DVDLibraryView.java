@@ -1,5 +1,6 @@
 package com.sg.dvdlibrary.ui;
 
+import com.sg.dvdlibrary.dto.Collection;
 import com.sg.dvdlibrary.dto.DVD;
 
 import java.util.List;
@@ -27,11 +28,12 @@ public class DVDLibraryView {
 
     public DVD getNewDVDInfo(){
         String title = io.readString("Please enter DVD title");
-        String releaseDate = io.readString("Please enter DVD release Date");
+        String releaseDate = io.readString("Please enter DVD release Date. In this format: MM/YYYY");
         String mpaaRating = io.readString("Please enter DVD MPAA rating");
         String directorName = io.readString("Please enter DVD Director's Name");
         String studio = io.readString("Please enter DVDs studio");
         String userRatingorNote = io.readString("Please enter your rating or notes for this DVD");
+        String collectionName = io.readString("Please enter the name of the Collection this DVD belongs to");
 
         DVD currDVD = new DVD(title);
         currDVD.setReleaseDate(releaseDate);
@@ -39,7 +41,9 @@ public class DVDLibraryView {
         currDVD.setDirectorName(directorName);
         currDVD.setStudio(studio);
         currDVD.setUserRatingOrNote(userRatingorNote);
-
+        //create a new Collection object that we can set for our DVD
+        Collection dvdCollection = new Collection(collectionName);
+        currDVD.setDvdCollection(dvdCollection);
         return currDVD;
     }
 
@@ -55,13 +59,14 @@ public class DVDLibraryView {
 
     public void displayDVDList(List<DVD> dvdList){
         for(DVD currDVD : dvdList){
-            String dvdInfo = String.format("#%s : %s %s",
+            String dvdInfo = String.format("#%s : %s %s %s %s %s %s",
                     currDVD.getTitle(),
                     currDVD.getReleaseDate(),
                     currDVD.getMpaaRating(),
                     currDVD.getDirectorName(),
                     currDVD.getStudio(),
-                    currDVD.getUserRatingOrNote());
+                    currDVD.getUserRatingOrNote(),
+                    currDVD.getDvdCollection());
             io.print(dvdInfo);
         }
         io.readString("Please hit enter to continue");
@@ -87,6 +92,7 @@ public class DVDLibraryView {
             io.print(dvd.getDirectorName());
             io.print(dvd.getStudio());
             io.print(dvd.getUserRatingOrNote());
+            io.print(dvd.getDvdCollection());
         }
         else{
             displayErrorMessage("This DVD doesn't exist");
@@ -123,10 +129,11 @@ public class DVDLibraryView {
         io.print("3. Edit Director's Name");
         io.print("4. Edit Studio");
         io.print("5. Edit User Rating or Note");
-        io.print("6. Exit to Main Menu");
+        io.print("6. Edit Collection");
+        io.print("7. Exit to Main Menu");
 
 
-        return io.readInt("Please select from the above choices.", 1, 6);
+        return io.readInt("Please select from the above choices.", 1, 7);
     }
 
     public String getDVDUpdatedInfo(){

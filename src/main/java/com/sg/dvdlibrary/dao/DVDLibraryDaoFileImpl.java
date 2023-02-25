@@ -49,6 +49,10 @@ public class DVDLibraryDaoFileImpl implements DVDLibraryDao{
             case 5:
                 currDVD.setUserRatingOrNote(value);
                 break;
+            case 6:
+                Collection dvdCollection = new Collection(value);
+                currDVD.setDvdCollection(dvdCollection);
+                break;
         }
         //display dvd with updated information and exit
         dvds.put(currDVD.getTitle(), currDVD);

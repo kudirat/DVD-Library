@@ -59,8 +59,8 @@ public class DVD {
         this.userRatingOrNote = userRatingOrNote;
     }
 
-    public Collection getDvdCollection() {
-        return dvdCollection;
+    public String getDvdCollection() {
+        return dvdCollection.getCollectionName();
     }
 
     public void setDvdCollection(Collection dvdCollection) {
