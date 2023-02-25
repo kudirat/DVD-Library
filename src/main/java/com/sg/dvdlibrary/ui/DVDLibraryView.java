@@ -86,13 +86,13 @@ public class DVDLibraryView {
 
     public void displayDVD(DVD dvd){
         if(dvd != null){
-            io.print(dvd.getTitle());
-            io.print(dvd.getReleaseDate());
-            io.print(dvd.getMpaaRating());
-            io.print(dvd.getDirectorName());
-            io.print(dvd.getStudio());
-            io.print(dvd.getUserRatingOrNote());
-            io.print(dvd.getDvdCollection());
+            io.print("Title: " + dvd.getTitle());
+            io.print("Release Date: " +dvd.getReleaseDate());
+            io.print("MPAA Rating: " +dvd.getMpaaRating());
+            io.print("Director's Name: " +dvd.getDirectorName());
+            io.print("Studio: " + dvd.getStudio());
+            io.print("User Rating/Note: " +dvd.getUserRatingOrNote());
+            io.print("DVD Collection: " +dvd.getDvdCollection());
         }
         else{
             displayErrorMessage("This DVD doesn't exist");

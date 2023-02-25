@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2305846-eecb-474b-9c66-ef5e6dec3474" name="Changes" comment="Updated DAO Implementation file - library.txt updates when a DVD is updated and updated Collections Object">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e2305846-eecb-474b-9c66-ef5e6dec3474" name="Changes" comment="Updated the way a single DVD is displayed">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dvdlibrary/ui/DVDLibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dvdlibrary/ui/DVDLibraryView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dvdlibrary/ui/DVDLibraryView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sg/dvdlibrary/ui/DVDLibraryView.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677298703552</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated the way a single DVD is displayed">
+      <created>1677299257027</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677299257027</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +137,8 @@
     <MESSAGE value="Updated DAO Implementation file" />
     <MESSAGE value="Updated DAO Implementation file - library.txt updates when a DVD is updated" />
     <MESSAGE value="Updated DAO Implementation file - library.txt updates when a DVD is updated and updated Collections Object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated DAO Implementation file - library.txt updates when a DVD is updated and updated Collections Object" />
+    <MESSAGE value="Updated the way a single DVD is displayed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the way a single DVD is displayed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
