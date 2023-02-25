@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2305846-eecb-474b-9c66-ef5e6dec3474" name="Changes" comment="Updated DAO Implementation file - library.txt updates when a DVD is updated">
+    <list default="true" id="e2305846-eecb-474b-9c66-ef5e6dec3474" name="Changes" comment="Updated DAO Implementation file - library.txt updates when a DVD is updated and updated Collections Object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library.txt" beforeDir="false" afterPath="$PROJECT_DIR$/library.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dvdlibrary/controller/DVDLibraryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dvdlibrary/controller/DVDLibraryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryDaoFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dvdlibrary/dao/DVDLibraryDaoFileImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dvdlibrary/dto/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dvdlibrary/dto/DVD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dvdlibrary/ui/DVDLibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dvdlibrary/ui/DVDLibraryView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dvdlibrary/controller/DVDLibraryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sg/dvdlibrary/controller/DVDLibraryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dvdlibrary/dao/DVDLibraryDaoFileImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sg/dvdlibrary/dao/DVDLibraryDaoFileImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dvdlibrary/dto/DVD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sg/dvdlibrary/dto/DVD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/dvdlibrary/ui/DVDLibraryView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sg/dvdlibrary/ui/DVDLibraryView.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677294907542</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated DAO Implementation file - library.txt updates when a DVD is updated and updated Collections Object">
+      <created>1677298703552</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677298703552</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +129,8 @@
     <MESSAGE value="Adding files to project" />
     <MESSAGE value="Updated DAO Implementation file" />
     <MESSAGE value="Updated DAO Implementation file - library.txt updates when a DVD is updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated DAO Implementation file - library.txt updates when a DVD is updated" />
+    <MESSAGE value="Updated DAO Implementation file - library.txt updates when a DVD is updated and updated Collections Object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated DAO Implementation file - library.txt updates when a DVD is updated and updated Collections Object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
