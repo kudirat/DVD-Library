@@ -51,7 +51,6 @@ public class DVDLibraryDaoFileImpl implements DVDLibraryDao{
                 break;
         }
         //display dvd with updated information and exit
-        //displayDVDInformation(title);
         writeLibrary();
         return currDVD;
     }
@@ -88,10 +87,10 @@ public class DVDLibraryDaoFileImpl implements DVDLibraryDao{
         dvdFromFile.setDirectorName(dvdTokens[3]);
 
         // Index 4 - Studio
-        dvdFromFile.setDirectorName(dvdTokens[4]);
+        dvdFromFile.setStudio(dvdTokens[4]);
 
         // Index 5 - User rating or note
-        dvdFromFile.setDirectorName(dvdTokens[5]);
+        dvdFromFile.setUserRatingOrNote(dvdTokens[5]);
 
         // Index 6 - DVD Collection
         //String dvdCollectionStr =  dvdTokens[6];
