@@ -1,5 +1,4 @@
-# c331-dvd-library-assessment-kudirat
-c331-dvd-library-assessment-kudirat created by GitHub Classroom
+# DVD-Library
 
 ## Overview
 The purpose of this assessment was to demonstrate my proficiency in basic Java syntax involving console input and output, basic file input and output, 
